@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
-    res.send('Successful resposnse');
+    res.send('Successful resposnse\nGo to: http://localhost:3000/greet/Jhon');
 });
 
 app.get('/greet/Jhon',(req,res)=>{
